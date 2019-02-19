@@ -1,14 +1,15 @@
 {
   "pages": [
-    
+    "pages/orders/main",
     "pages/index/main",
     "pages/logs/main",
     "pages/orderForm/main",
+    
     "pages/counter/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#f5f5f5",
     "navigationBarTitleText": "小牧的下午茶小分队",
     "navigationBarTextStyle": "black"
   },
@@ -25,7 +26,7 @@
       "selectedIconPath": "static/tabs/add-active.png"
     }, {
       "text": "订单",
-      "pagePath": "pages/logs/main",
+      "pagePath": "pages/orders/main",
       "iconPath": "static/tabs/order.png",
       "selectedIconPath": "static/tabs/order-active.png"
     }, {

@@ -1,12 +1,15 @@
+// 整体页面
 .page {
   background-color: #f5f5f5;
   height: 100vh;
 }
+// 卡片
 .card {
   padding: 16px;
   margin: 10px 0;
   background-color: #fff;
 }
+// 没有背景填充的卡片
 .card-o {
   margin: 10px 0;
   padding: 0 20px;
@@ -16,9 +19,38 @@
   height: 40px;
 }
 
+// 表单项
 .form-item {
   margin-bottom: 20px;
 }
+// 表达列表
 .form-list-item + .form-list-item {
   border-top: 1px solid #eee;
+}
+
+// 表格
+.table {
+  background: #fff;
+}
+// 表格列表
+.table-item {
+  padding: 0 12px;
+  height: 48px;
+}
+.table-item + .table-item {
+  border-top: 1px solid #eee;
+}
+.table-item-cell {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  .cell-10 {
+    width: 10%;
+  }
+  .cell-30 {
+    width: 30%;
+  }
+  .cell-60 {
+    width: 60%;
+  }
 }
